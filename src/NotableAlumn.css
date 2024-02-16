@@ -1,0 +1,35 @@
+.notableAlumni {
+	width: 100%;
+	max-width: 1200px; /* Adjust the maximum width as needed */
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.card {
+	border: 1px solid red;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 10px; /* Add margin between cards */
+}
+
+img {
+	width: 297px;
+	height: 259px;
+}
+
+.card-container {
+	display: flex;
+	/* flex-wrap: wrap; Ensures cards wrap properly */
+	justify-content: center;
+}
+
+.heading {
+	font-family: Inika;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 39px;
+	letter-spacing: 0em;
+	margin-bottom: 20px; /* Add margin below the heading */
+}

@@ -1,0 +1,58 @@
+.timeline-img {
+	width: 70px;
+	height: 70px;
+}
+.images {
+	display: flex;
+}
+
+.customTimeline {
+	display: flex;
+	align-items: center;
+	width: 80%;
+}
+
+.alumniText {
+	writing-mode: vertical-lr;
+	font-family: Inria Serif;
+	font-size: 110px;
+	font-weight: 400;
+	line-height: 216px;
+	letter-spacing: 0em;
+	text-align: center;
+	transform: rotate(180deg);
+	position: relative;
+	left: 320px;
+}
+
+.rightTimeline {
+	flex-grow: 1;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+	.alumniText {
+		font-size: 60px; /* Adjust font size for smaller screens */
+		line-height: 120px;
+		left: 160px;
+		position: relative;
+		left: 90px;
+	}
+
+	.rightTimeline {
+		margin-top: 20px; /* Add space between ALUMNI text and timeline on smaller screens */
+	}
+}
+
+.button {
+	display: flex;
+	justify-content: end;
+}
+
+.button button {
+	background: none;
+	border: 0;
+	text-decoration: underline;
+	font-family: Inria Serif;
+	cursor: pointer;
+}
